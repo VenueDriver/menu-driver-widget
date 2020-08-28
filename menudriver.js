@@ -1,4 +1,4 @@
-(function($) {
+(function($, window, document, undefined) {
 
     $.fn.menuedriver = function(options) {
 
@@ -37,4 +37,4 @@
 
     };
 
-}(jQuery));
+}(jQuery, window, document));
