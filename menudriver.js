@@ -1,6 +1,6 @@
-(function($, window, document, undefined) {
+(function($) {
 
-    $.fn.menuedriver = function(options) {
+    $.fn.menudriver = function(options) {
 
         // Default options
         var settings = $.extend({
@@ -37,4 +37,4 @@
 
     };
 
-}($, window, document));
+}(jQuery));
